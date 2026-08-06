@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"siva i love you";
+    cout<<"hello siva";
+    return 0;
 }
