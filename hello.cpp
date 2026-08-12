@@ -1,26 +1,16 @@
 #include<iostream>
 using namespace std;
-class hello
+class Student
 {
-private:
-    /* data */
-public:
-    hello(/* args */);
-    ~hello();
+    public:
+    void display()
+    {
+        cout<<"Hello World";
+    }
 };
-
-hello::hello(/* args */)
+int main()
 {
-}
-
-hello::~hello()
-{
-}
-
-int main(){
-    hello h;
-    cout<<"hello siva";
-    cout<<"siva aruna ganga";
-    cout<<"i love yoy";
+    Student obj;
+    obj.display();
     return 0;
 }

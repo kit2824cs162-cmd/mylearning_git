@@ -8,6 +8,14 @@ class A
         cout<<"Hello World";
     }
 };
+class B : public A
+{
+    public:
+    void display()
+    {
+        cout<<"Hello World from class B";
+    }
+};
 int main()
 {
     A obj;
