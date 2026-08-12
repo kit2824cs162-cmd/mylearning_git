@@ -1,9 +1,16 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int a=10;
-    int b=20;
-    int c=80;
-    int d=a+b+c;
-    cout<<d;
+class A
+{
+    public:
+    void display()
+    {
+        cout<<"Hello World";
+    }
+};
+int main()
+{
+    A obj;
+    obj.display();
+    return 0;
 }
