@@ -34,9 +34,18 @@ class D : public C
         cout<<"it is inheritance";
     }
 };
+class E : public D
+{
+    public:
+    void display()
+    {
+        cout<<"Hello World from class E";
+        cout<<"it is inheritance";
+    }
+};
 int main()
 {
-    D obj;
+    E obj;
     obj.display();
     return 0;
 }
