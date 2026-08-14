@@ -25,9 +25,27 @@ class C : public B
         cout<<"it is inheritance";
     }
 };
+class D : public C
+{
+    public:
+    void display()
+    {
+        cout<<"Hello World from class D";
+        cout<<"it is inheritance";
+    }
+};
+class E : public D
+{
+    public:
+    void display()
+    {
+        cout<<"Hello World from class E";
+        cout<<"it is inheritance";
+    }
+};
 int main()
 {
-    C obj;
+    E obj;
     obj.display();
     return 0;
 }
